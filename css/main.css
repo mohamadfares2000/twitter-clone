@@ -1,0 +1,296 @@
+.top_home{
+background: rgb(255, 255, 255);
+position: sticky;
+position: -webkit-sticky;
+top: -1px;
+border-bottom: 1px solid rgba(238, 238, 238, 0.884);
+height: 50px;
+display: flex;
+}
+
+.btn_go_top_main{
+position: absolute;
+left: 5px;
+display: flex;
+width: 40px;
+height: 40px;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+cursor: pointer;
+}
+
+.btn_go_top_main svg{
+width: 25px;
+height:25px;
+}
+
+.btn_go_top_main:hover{
+background: #eee;
+}
+
+.top_home a{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+padding-right: 20px;
+text-decoration: none;
+color: var(--text);
+font-size: 1.4rem;
+font-weight: 600;
+}
+
+.wrapper_make_tweet{
+margin-top: 20px;
+display: flex;
+transition: all 0.3s ease-in-out;
+}
+
+.bowl_avatar{
+padding: 7px;
+}
+
+.bowl_avatar img{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+cursor: pointer;
+box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3);
+object-fit: cover;
+}
+
+.area_text{
+width: 100%;
+}
+
+.bowl_area_text{
+width: 100%;
+height: 50px;
+resize: none;
+border: none;
+outline: none;
+padding: 10px;
+font-size: 1.2rem;
+}
+
+.bowl_area_text::placeholder{
+font-size: 1.3rem;
+font-weight: 600;
+color: var(--text3);
+}
+
+.type_tweet_view{
+width: 100%;
+display: none;
+}
+
+.type_tweet_view.active{
+display: flex;
+}
+
+.bowl_type_people{
+display: flex;
+align-items: center;
+padding:3px 8px;
+border-radius: 50px;
+border: none;
+outline: none;
+cursor: pointer;
+background: transparent;
+}
+
+.bowl_type_people:hover{
+background: var(--blue_hover);
+}
+
+.bowl_type_people span{
+color: var(--blue);
+font-weight: 600;
+font-size: 0.9rem;
+}
+
+.icon_to_tweet{
+display: flex;
+align-items: center;
+}
+
+.icon_to_tweet svg{
+width: 30px;
+height: 30px;
+fill: var(--blue);
+padding: 3px;
+}
+
+.tool_for_tweet{
+display: flex;
+padding: 10px 5px;
+border-top: 1px solid rgb(235, 235, 235);
+border-bottom: 1px solid rgb(235, 235, 235);
+align-items: center;
+justify-content: space-between;
+}
+
+.all_tool_reactin_post{
+display: flex;
+}
+
+.icon_tool_tweet{
+width: 35px;
+height: 35px;
+border-radius: 50%;
+margin-right: 3px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.icon_tool_tweet:hover{
+background: var(--blue_hover);
+}
+
+.icon_tool_tweet svg{
+width: 25px;
+height:25px;
+fill: var(--blue);
+padding: 3px;
+}
+
+.btn_puplish_tweet button{
+background: var(--blue);
+outline: none;
+border: none;
+padding: 10px 22px;
+border-radius: 50px;
+color: var(--text2);
+font-size: 1.1rem;
+font-weight: 600;
+cursor: pointer;
+}
+
+.btn_puplish_tweet button:hover{
+background: var(--blue_black);
+}
+
+.btn_puplish_tweet button:active{
+background: var(--blue);
+}
+
+.content_main{
+height: 2000px;
+}
+
+.wrapper_tweeted{
+padding: 7px;
+margin-top: 20px;
+}
+
+.head_tweeted{
+display: flex;
+}
+
+.avatar_user_twtd{
+margin-top: 15px;
+}
+
+.avatar_user_twtd img{
+width: 44px;
+height: 44px;
+border-radius: 50%;
+object-fit: cover;
+cursor: pointer;
+box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3);
+}
+
+.info_head{
+padding: 12px;
+}
+
+.fullnbame_user_twtd{
+font-size: 1.4rem;
+font-weight: 600;
+cursor: pointer;
+}
+
+.username_user_twtd{
+font-size: 1.1rem;
+margin-right: 5px;
+cursor: pointer;
+}
+
+.time_twtd{
+margin-right: 5px;
+font-size: .7rem;
+}
+
+.text_content_twtd{
+padding:  8px;
+font-size: 1.1rem;
+}
+
+.content_media_twtd img{
+width: 100%;
+}
+
+.reacted_icon_twtd{
+display: flex;
+justify-content: space-between;
+padding: 7px;
+}
+
+.btn_reacted_ic{
+align-items: center;
+display: flex;
+}
+
+.icon_reacted{
+width: 33px;
+height: 33px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+cursor: pointer;
+}
+
+.icon_reacted svg{
+width: 22px;
+height: 22px;
+}
+
+.icon_reacted:hover{
+background: var(--blue_hover);
+}
+.icon_reacted:hover svg{
+fill: var(--blue);
+}
+
+.icon_reacted_love:hover{
+background: var(--red_hover);
+}
+
+.icon_reacted_love:hover svg{
+fill: var(--red);
+}
+
+.count_rected{
+margin-right: 5px;
+}
+
+
+.btn_upload{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+
+
+.input_upload{
+    display: none;
+}
+
+
+

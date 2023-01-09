@@ -1,0 +1,204 @@
+
+
+.content_nav{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo{
+padding: 12px 22px;
+}
+
+.logo_twitter{
+width: 50px;
+height:50px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+
+}
+
+.logo_twitter:hover{
+background: var(--blue_hover);
+}
+
+.logo_twitter svg{
+width: 30px;
+height: 30px;
+}
+
+
+
+
+.sect_bowl{
+padding-top: 10px;
+}
+
+.list_menu{
+list-style: none;
+}
+
+.list_menu li{
+padding: 4px 18px;
+display: flex;
+}
+
+.line_menu{
+display: flex;
+align-items: center;
+border-radius: 50px;
+padding: 12px 22px;
+}
+
+.line_menu:hover{
+background-color: var(--eee_hover);
+}
+
+
+.list_menu li a{
+text-decoration: none;
+color: var(--text);
+}
+.list_menu li span{
+margin-right: 8px;
+font-size: 1.3rem;
+}
+
+
+
+.list_menu li svg{
+fill: rgb(78, 78, 78);
+width: 22px;
+height: 22px;
+}
+
+.btn_tweet{
+
+padding: 12px 22px;
+}
+
+
+
+.btn_tweet button{
+border-right: 50px;
+background: var(--blue);
+width: 180px;
+height: 50px;
+border: none;
+outline: none;
+color: var(--text2);
+font-size: 1.4rem;
+font-weight: 600;
+border-radius: 50px;
+cursor: pointer;
+}
+
+
+.btn_tweet button:hover{
+background: var(--blue_black);
+}
+
+
+
+
+.card_my_profile{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 5px;
+cursor: pointer;
+border-radius: 50px;
+margin-bottom: 15px;
+width: 90%;
+}
+
+.card_my_profile:hover{
+background-color: var(--eee_hover);
+}
+
+
+.info_profile{
+display: flex;
+align-items: center;
+}
+.avatar_profile img{
+width: 50px;
+height:50px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.info_names{
+    margin-right: 5px;
+}
+.info_names .fullname{
+font-size: 1.2rem;
+font-weight: 600;
+}
+
+.info_names .username{
+display: block;
+}
+
+
+.more_option svg{
+width: 20px;
+height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+body{
+width: 100%;
+}
+nav{
+width: 110px;
+}
+
+
+
+.list_menu li span{
+display: none;
+}
+
+.btn_tweet button{
+width: 44px;
+height: 44px;
+}
+
+
+.line_menu{
+border-radius: 50px;
+padding: 12px 12px;
+}
+
+
+.list_menu li svg{
+fill: rgb(78, 78, 78);
+width: 28px;
+height:28px;
+}
+}
+
+

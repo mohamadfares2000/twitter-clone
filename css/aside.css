@@ -1,0 +1,229 @@
+
+.content_aside{
+    width: 90%;
+    margin:  0 auto;
+    position: sticky;
+    top: 10px;
+    }
+    
+    .bowl_search{
+    background-color: var(--hover_white);
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 50px;
+    height: 45px;
+    overflow: hidden;
+    }
+    
+    .icon_search{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .icon_search svg{
+    height: 20px;
+    width: 20px;
+    }
+    
+    .input_search{
+    height: 100%;
+    width: 100%;
+    }
+    
+    .input_search input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 1.1rem;
+    }
+    
+    
+    
+    
+    .top_hashtags{
+        padding: 6px;
+        margin-top: 20px;
+    }
+    
+    .title_top_hash{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    
+    
+    
+    .setting_top_hash{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        justify-content: center;
+    }
+    
+    .setting_top_hash:hover{
+        background: var(--eee_hover);
+    }
+    
+    
+    .setting_top_hash svg{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .bowl_hashtags{
+        margin-top: 10px;
+    }
+    
+    
+    
+    .card_hashtag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+    
+    .card_hashtag:hover{
+    background: var(--eee_hover);
+    }
+        
+    .name_hash .name{
+    font-size: 1.3rem;
+    font-weight: 600;
+    }
+    .name_hash .count_posted{
+    display: block;
+    font-size: .8rem;
+    }
+    
+    
+    
+    
+    .icon_show_more{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        justify-content: center;
+    }
+    
+    .icon_show_more:hover{
+        background: var(--blue_hover);
+    }
+    
+    
+    .icon_show_more svg{
+        width: 20px;
+        height: 20px;
+        fill: var(--text3);
+    }
+    .icon_show_more:hover svg{
+        fill: var(--blue);
+    }
+    
+    
+    .line_see_more_sashtags{
+    padding: 10px;
+    
+    }
+    .line_see_more_sashtags:hover{
+        background: var(--eee_hover);
+        }
+        
+    .line_see_more_sashtags a{
+        text-decoration: none;
+        color: var(--blue);
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .random_users{
+        margin-top: 10px;
+    }
+    .title_random_users{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    
+    
+    .bowl_cards_users{
+        margin-top: 7px;
+    }
+    
+    .card_user_random{
+        margin-top: 3px;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    .card_user_random:hover{
+        background: var(--eee_hover);
+    }
+    
+    .card_user_random a{
+        display: flex;
+        text-decoration: none;
+        color: var(--text);
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .info_card_user{
+        display: flex;
+    }
+    
+    .info_card_user .username{
+        display: block;
+    }
+    
+    
+    .avatar_user_card img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    
+    }
+    
+    .info_personal{
+        margin-right: 5px;
+        font-size: 1.1rem;
+    }
+    
+    
+    
+    .btn_to_follow button{
+        background: var(--text);
+    color: var(--text2);
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+    }

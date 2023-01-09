@@ -1,0 +1,46 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Tajawal', sans-serif;
+}
+
+:root{
+--text: #000;
+--text2: #fff;
+--text3: rgb(87, 87, 87);
+--blue:rgb(29, 155, 240) ;
+--blue_black: rgb(25, 127, 196) ;
+--blue_hover:rgb(29, 155, 240, 0.1) ;
+--eee_hover:rgb(15, 20, 25, 0.1) ;
+--hover_white:rgb(239, 243, 244);
+--red: rgb(249, 24, 128);
+--red_hover: rgba(249, 24, 129, 0.1);
+}
+
+body{
+width:1200px;
+margin: 0 auto;
+display: flex;
+}
+
+nav{
+width: 300px;
+height: 100vh;
+padding-right: 30px;
+border-left: 1px solid #eee;
+position: sticky;
+top: 0;
+}
+
+main{
+width: 600px;
+border-left: 1px solid rgba(238, 238, 238, 0.877);
+}
+
+aside{
+width: 330px;
+position: sticky;
+top: 0;
+}
+
